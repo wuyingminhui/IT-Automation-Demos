@@ -1,0 +1,5 @@
+---
+# This notify hander  for common tasks
+
+- name: echo the time in server
+  shell: echo 'handers'+ $(date)

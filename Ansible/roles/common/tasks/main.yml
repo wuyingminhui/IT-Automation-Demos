@@ -1,0 +1,7 @@
+---
+# This task for common tasks
+
+- name: echo the time in server
+  shell: echo 'tasks'+ $(date)
+  notify:
+    - echo the time in server

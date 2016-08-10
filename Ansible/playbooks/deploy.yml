@@ -1,0 +1,8 @@
+---
+# This playbook connect the remote server and run common 
+
+- name: run common in dev server
+  hosts: dev_server
+  remote_user: "{{ dev_ssh_user }}"
+  roles:
+    - { role: common }
