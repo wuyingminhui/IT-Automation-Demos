@@ -34,5 +34,10 @@ ansible-playbook playbooks/deploy.yml -i hosts -k -v
         └── vars         // if vars/main.yml exsits, the variables in the file will be added to play
 ```
 
+###More
+You can use Ansible with [Fabric](http://www.fabfile.org/) to do some complex jobs.
+
+And You can Use [Vault](http://docs.ansible.com/ansible/playbooks_vault.html) to do something easier for the password.
+
 ###Contributing
 All contributions are welcome!
